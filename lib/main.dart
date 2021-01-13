@@ -19,6 +19,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return LitAuthInit(
+      authProviders: const AuthProviders(
+        emailAndPassword: true,
+        google: true,
+        apple: true,
+        twitter: true,
+      ),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Material App',
@@ -32,11 +38,11 @@ class MyApp extends StatelessWidget {
           ),
         ),
 
-        // home: const LitAuthState(
-        //   authenticated: Home(),
-        //   unauthenticated: Unauthenticated(),
-        // ),
-        home: const SplashScreen(),
+        home: const LitAuthState(
+          authenticated: HomeScreen(),
+          unauthenticated: SplashScreen(),
+        ),
+        //home: const SplashScreen(),
       ),
     );
   }
