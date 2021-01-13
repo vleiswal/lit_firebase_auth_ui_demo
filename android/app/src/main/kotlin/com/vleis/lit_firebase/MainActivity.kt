@@ -1,4 +1,4 @@
-package com.example.lit_firebase_ui_demo
+package com.vleis.lit_firebase
 
 import io.flutter.embedding.android.FlutterActivity
 

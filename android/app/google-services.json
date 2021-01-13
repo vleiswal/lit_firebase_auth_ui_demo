@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "478700713561",
+    "project_id": "funwithflutterlitfirebase",
+    "storage_bucket": "funwithflutterlitfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478700713561:android:3d99ce56c72ff989cc2348",
+        "android_client_info": {
+          "package_name": "com.vleis.lit_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478700713561-v0p40qnd06e42gfpp2oum419ad2bk2i6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU2y85-_Di-tz_hQNp4Bn8NUrJXnCtnmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478700713561-v0p40qnd06e42gfpp2oum419ad2bk2i6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
